@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/za-component.css">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 nav-za" id="myScrollspy">
+          <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-="205">
+            <li ><a href="#section1">Introduction</a></li>
+            <li><a href="#section2">Alert</a></li>
+            <li><a href="#section3">Button</a></li>
+            <li><a href="#section4">Text</a></li>
+            <li><a href="#section5">About</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9">
+          <section class="sectionone" id="section1">
+            <h2><span class="za-head">Za</span>Introduction</h2>
+            <p>Get started with Za Framework, the world’s most popular framework for building responsive, mobile-first sites.<br>Za is customize Bootstap library <span class="span-za-bg">"version 4.0.0"</span></p>
+            <h4>CSS<span>#</span></h4>
+            <p>Copy-paste the stylesheet <span class="span-za"> &lt;link&gt;</span> into your <span class="span-za">&lt;head&gt;</span> before all other stylesheets to load our CSS.</p>
+            
+            <div class="za-highlight">
+              <p>
+                &lt;link rel="stylesheet" type="text/css" href="assets/css/za-component.css"&gt; <br>
+                &lt;link rel="stylesheet" type="text/css" href="assets/plugin/bootstrap.min.css"&gt;
+              </p>
+            </div>
+            <!--Za alert -->
+            <div>
+              <h2><span class="za-head">Za</span>Alerts</h2>
+              <p>Za provides an easy way to create predefined alert messages:</p>
+              <div class="za-area">
+                <div class="alert za-alert-success">
+                  <h4>Success!</h4>
+                  <p>Indicates a successful or positive action.</p>
+                </div>
+                <div class="alert za-alert-info">
+                  <h4>Info!</h4>
+                  <p>Indicates a neutral informative change or action.</p>
+                </div>
+                <div class="alert za-alert-warning">
+                  <h4>Warning!</h4>
+                  <p>Indicates a warning that might need attention.</p>
+                </div>
+                <div class="alert za-alert-danger">
+                  <h4>Danger!</h4>
+                  <p>Indicates a dangerous or potentially negative action.</p>
+                </div>
+              </div>
+              <p>Alerts are created with the <span class="span-za">.alert</span> class, followed by one of the four contextual classes <span class="span-za">.za-alert-success</span>, <span class="span-za">.za-alert-info</span>, <br><span class="span-za">.za-alert-warning </span>or <span class="span-za">.za-alert-danger</span>:</p>
+              <div class="za-highlight">
+                <p>
+                  &lt;div class="alert za-alert-success"&gt;Info! Indicates a neutral informative change or action.&lt;/div&gt;<br>
+                  &lt;div class="alert za-alert-info"&gt; Info! Indicates a neutral informative change or action.&lt;/div&gt;<br>
+                  &lt;div class="alert za-alert-warning"&gt;Warning! Indicates a warning that might need attention.&lt;/div&gt;<br>
+                  &lt;div class="alert za-alert-danger"&gt;Danger! Indicates a dangerous or potentially negative action.&lt;/div&gt; <br>
+                </p>
+              </div>
+            </div>
+          </section>
+          <!-- Za Button -->
+          <section class="sectiontwo"id="section2" >
+            <div>
+              <h2><span class="za-head">Za</span>Button Colors</h2>
+              <p>Za provides different styles of buttons:</p>
+              <div class="za-area">
+                <button type="button" class="btn btn-za">Basic</button>
+                <button type="button" class="btn za-btn-default">Default</button>
+                <button class="btn za-btn-middleblue" type="submit">Middleblue</button>
+                <input class="btn za-btn-heloitrope" type="button" value="Heloitrope">
+                <input class="btn za-btn-turbo" type="submit" value="Turbo">
+                <input class="btn za-btn-carminepink" type="reset" value="Carminepink">
+              </div>
+              <p>To achieve the button styles above, Za has the following classes:</p>
+              <div>
+                <ul>
+                  <li><span class="span-za">za-btn</span></li>
+                  <li><span class="span-za">za-btn-default</span></li>
+                  <li><span class="span-za">za-btn-middleblue</span></li>
+                  <li><span class="span-za">za-btn-heloitrope</span></li>
+                  <li><span class="span-za">za-btn-turbo</span></li>
+                  <li><span class="span-za">za-btn-carminepink</span></li>
+                </ul>
+              </div>
+              <p>The following example shows the code for the different button styles:</p>
+              <div class="za-highlight">
+                <p>
+                  &lt;button type="button" class="btn btn-za"&gt;Basic&lt;/button&gt;<br>
+                  &lt;button type="button" class="btn za-btn-default"&gt;Default&lt;/button&gt;<br>
+                  &lt;button class="btn za-btn-middleblue" type="submit"&gt;middleblue&lt;/button&gt;<br>
+                  &lt;input class="btn za-btn-heloitrope" type="button" value="heloitrope"&gt;<br>
+                  &lt;input class="btn za-btn-turbo" type="submit" value="turbo"&gt;<br>
+                  &lt;input class="btn za-btn-carminepink" type="reset" value="carminepink"&lt;<br>
+                </p>
+              </div>
+              <h2><span class="za-head">Za</span>Button Outline</h2>
+              <p>Za provides different border styles of buttons:</p>
+              <div class="za-area">
+                <button type="button" class="btn za-btn-border-middleblue">Middleblue</button>
+                <button type="button" class="btn za-btn-border-heloitrope">Heloitrope</button>
+                <button type="button" class="btn za-btn-border-turbo">Turbo</button>
+                <button type="button" class="btn za-btn-border-carminepick">Carminepick</button>
+                <button type="button" class="btn rounded-pill za-btn-border-dodgerblue">Dodgerblue</button>
+                <button type="button" class="btn rounded-pill za-btn-border-carminepick">Carminepick</button>
+              </div>
+              <p>To achieve the button border styles above, Za has the following classes:</p>
+              <div>
+                <ul>
+                  <li><span class="span-za">za-btn-border-middleblue</span></li>
+                  <li><span class="span-za">za-btn-border-heloitrope</span></li>
+                  <li><span class="span-za">za-btn-border-turbo</span></li>
+                  <li><span class="span-za">za-btn-border-carminepick</span></li>
+                </ul>
+              </div>
+              <p>The following example shows the code for the different  button border styles:</p>
+              <div class="za-highlight">
+                <p>
+                  &lt;button type="button" class="btn za-btn-border-middleblue"&gt;Middleblue&lt;/button&gt;<br>
+                  &lt;button type="button" class="btn za-btn-border-heloitrope"&gt;Heloitrope&lt;/button&gt;<br>
+                  &lt;button type="button" class="btn za-btn-border-turbo"&gt;Turbo&lt;/button&gt;<br>
+                  &lt;button type="button" class="btn za-btn-border-carminepick"&gt;Carminepick&lt;/button&gt;<br>
+                </p>
+              </div>
+              <h2><span class="za-head">Za</span>Button Sizes</h2>
+              <p>Za provides three button sizes:</p>
+              <div class="za-area">
+                <button type="button" class="btn za-btn-middleblue btn-lg">Large</button>
+                <button type="button" class="btn za-btn-middleblue">Normal</button>
+                <button type="button" class="btn za-btn-middleblue btn-sm">Small</button>
+              </div>
+              <p>The classes that define the different sizes are:</p>
+              <div>
+                <ul>
+                  <li><span class="span-za">.btn-lg</span></li>
+                  <li><span class="span-za">.btn-sm</span></li>
+                  <li><span class="span-za">.btn-xs</span></li>
+                </ul>
+              </div>
+              <div class="za-highlight">
+                <p>
+                  &lt;button type="button" class="btn za-btn-middleblue btn-lg"&lt;Large&lt;/button&lt;<br>
+                  &lt;button type="button" class="btn za-btn-middleblue"&lt;Normal&lt;/button&lt;<br>
+                  &lt;button type="button" class="btn za-btn-middleblue btn-sm"&lt;Small&lt;/button&lt;<br>
+                </p>
+              </div>
+            </div>
+          </section>
+          <!-- Za Input -->
+          <section class="sectionthree" id="section3">
+            <h2><span class="za-head">Za</span>Input</h2>
+            <p>Za provides four input below:</p>
+            <div class="za-area">
+              <h4>Input Radius</h4>
+              <input type="input" class="form-control za-form-pink" name="">
+              <p class="text-muted">class:form-control za-form-pink</p>
+              <input type="input" class="form-control za-form-dodgerblue" name="">
+              <p class="text-muted">class:form-control za-form-dodgerblue</p>
+              <input type="input" class="form-control za-form-orange" name="">
+              <p class="text-muted">class:form-control za-form-orange</p>
+              <input type="input" class="form-control za-form-crimson" name="">
+              <p class="text-muted">class:form-control za-form-crimson</p>
+            </div>
+            <div class="za-highlight">
+              <p>
+                &lt;input type="input" class="form-control za-form-pink" name=""&gt;<br>
+                &lt;input type="input" class="form-control za-form-dodgerblue" name=""&gt;<br>
+                &lt;input type="input" class="form-control za-form-orange" name=""&gt;<br>
+                &lt;input type="input" class="form-control za-form-crimson" name=""&gt;<br>
+              </p>
+            </div>
+          </section>
+          <section class="sectionfour"id="section4">
+            <h2><span class="za-head">Za</span>Text</h2>
+            <p>There are class Za for easy use Text color and Background:</p>
+            <p class="za-head-tf">Text color and Background</p>
+            <div class="za-tb">
+              <ul>
+                <li>class name:<span class="za-d">za-text-dodgerblue</span>  and color value is:<span class="za-d">  #19B5FE</span></li>
+                <li>class name:<span class="za-c">za-text-crimson </span>and color value is:<span class="za-c"> #C93756</span></li>
+                <li>class name:<span class="za-y">za-text-yellow </span>and color value is:<span class="za-y">#DB5A6B</span></li>
+                <li>class name:<span class="za-e">za-text-ecstasy </span>and color value is: <span class="za-e">#F9690E</span></li>
+                <li>class name:<span class="za-j">za-text-junglegreen </span>and color value is:<span class="za-j"> #2ABB9B</span></li>
+                <li>class name:<span class="za-s">za-text-silver</span> and color value is:<span class="za-s"> #BDC3C7</span></li>
+                <li>class name: za-bg-dodgerblue this class change color style background color: <span class="za-bg-dodgerblue">backgroound is dodgerblue</span></li>
+                <li>class name:za-bg-pink this class change color style background color:<span class="za-bg-yellow"> background is yellow</span></li>
+              </ul>
+            </div>
+            <p class="za-head-tf">Font size</p>
+            <div class="za-tb">
+              <ul>
+                <li>class name: <span class="za-font-16">za-font-16 </span> this class use to apply font size 16</li>
+                <li>class name: <span class="za-font-20">za-font-20 </span>this class use to apply font size 20</li>
+                <li>class name: <span class="za-font-24">za-font-24 </span>this class use to apply font size 24</li>
+                <li>class name: <span class="za-font-28">za-font-28 </span>this class use to apply font size 28</li>
+                <li>class name: <span class="za-font-30">za-font-30 </span>this class use to apply font size 30</li>
+                <li>class name: <span class="za-font-34">za-font-34 </span>this class use to apply font size 34</li>
+                <li>class name: <span class="za-font-38">za-font-38 </span>this class use to apply font size 38</li>
+                <li>class name: <span class="za-font-42">za-font-42 </span>this class use to apply font size 42</li>
+              </ul>
+            </div>
+            <p class="za-head-tf">Font Weight</p>
+            <div class="za-tb">
+              <ul>
+                <li>class name: <span class="za-text-300"> za-text-300 </span> this class use to apply font weight 300</li>
+                <li>class name: <span class="za-text-500">za-text-500 </span> this class use to apply font weight 500</li>
+                <li>class name: <span class="za-text-600">za-text-700 </span> this class use to apply font weight 700</li>
+                <li>class name: <span class="za-text-900">za-text-900 </span> this class use to apply font weight 900</li>
+                <li>class name: <span class="za-text-bold">za-text-bold </span> this class use to apply font weight bold</li>
+              </ul>
+            </div>
+            <h2 id="section5">About</h2>
+            <div class="about">
+              <p>This componet name ztoaComponent, we were been create it for make easy to our developer of project Amarketi. By this component, we can overide or use it directly. For this page is detail about our component attributes then developer can use it just import link of component.</p>
+              <p><b>Why this component?</b></p>
+              <p>We make this component to help our developer on this project to easy and fast to design our interface and all attributes is the same. For example, we can controll color, button, input text... to only one style.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+      <script type="text/javascript" src="assets/js/main.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </body>
+  </html>

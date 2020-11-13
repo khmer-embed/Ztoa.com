@@ -1,0 +1,182 @@
+/*Below is customiz css alert*/
+.za-alert-success{
+background-color: #e7ffe7!important;
+}
+.za-alert-info{
+background-color: #e7ffff!important;
+}
+.za-alert-warning{
+background-color: #ffffd7!important;
+}
+.za-alert-danger{
+background-color: #ffe7e7!important;
+}
+/*Below is customize css button*/
+.btn-za{
+color: white !important;
+background-color: #CAD3C8 !important;
+}
+.za-btn-default{
+color: white !important;
+background-color: #95afc0 !important;
+background-color:
+}
+.za-btn-middleblue{
+color: white !important;
+background-color: #7ed6df !important;
+}
+.za-btn-heloitrope{
+color: white !important;
+background-color: #e056fd !important;
+}
+.za-btn-turbo{
+color: white !important;
+background-color: #f9ca24 !important;
+}
+.za-btn-carminepink{
+color: white !important;
+background-color: #eb4d4b !important;
+}
+/*Below is customiz css outline button*/
+.za-btn-border-middleblue{
+color: #7ed6df !important;
+border-color: #7ed6df !important;
+}
+.za-btn-border-middleblue:hover{
+  background: #7ed6df;
+  color: #fff !important;
+}
+.za-btn-border-heloitrope{
+color: #e056fd !important;
+border-color: #e056fd !important;
+  }
+  .za-btn-border-heloitrope:hover{
+    background-color: #e056fd;
+    color: #fff !important; 
+  }
+.za-btn-border-turbo{
+  color: #f9ca24 !important;
+border-color: #f9ca24 !important;
+}
+.za-btn-border-turbo:hover{
+  background-color: #f9ca24;
+  color: #fff !important;
+}
+.za-btn-border-carminepick{
+color: #eb4d4b !important;
+ border-color: #eb4d4b !important;
+}
+.za-btn-border-carminepick:hover{
+  background-color: #eb4d4b;
+  color: #fff !important;
+}
+.za-btn-border-dodgerblue {
+  border: 1px solid dodgerblue !important;
+  color: dodgerblue !important;
+}
+.za-btn-border-dodgerblue:hover{
+  background-color: dodgerblue;
+  color: #fff !important;
+  font-weight: 200;
+}
+/*input*/
+.form-control:focus {
+  box-shadow: none !important;
+}
+.za-form-pink{
+border:1px solid pink !important;
+}
+.za-form-dodgerblue{
+  border:1px solid dodgerblue !important;
+}
+.za-form-orange{
+border:1px solid yellow!important;
+}
+.za-form-crimson{
+  border:1px solid crimson !important;
+}
+/*za text*/
+.za-text-dodgerblue{
+  color: dodgerblue;
+  font-weight: 600;
+}
+.za-text-crimson{
+  color:crimson;
+  font-weight: 600;
+}
+.za-text-yellow{
+  color: yellow;
+  font-weight: 600;
+}
+.za-text-ecstasy{
+  color:#F9690E;
+  font-weight:600;
+}
+.za-text-junglegreen{
+  color: #26C281;
+  font-weight:600;
+}
+.za-text-silver{
+  color: #BDC3C7;
+  font-weight:600;
+}
+.za-bg-dodgerblue{
+background-color: dodgerblue;
+color: white;
+padding: 2px 9px;
+  border-radius: 3px;
+  margin: 4px;
+}
+.za-bg-yellow{
+  background-color: yellow;
+  color: #6C7A89;
+  padding: 2px 9px;
+  border-radius: 3px;
+  margin: 4px;
+}
+.za-font-16{
+  font-size: 16px
+}
+.za-font-20{
+  font-size: 20px;
+}
+.za-font-24{
+  font-size: 24px;
+}
+.za-font-28{
+  font-size: 28px;
+}
+.za-font-30{
+  font-size: 30px;
+}
+.za-font-34{
+  font-size: 34px;
+}
+.za-font-38{
+  font-size: 38px;
+}
+.za-font-40{
+  font-size: 40px;
+}
+.za-font-42{
+  font-size: 42px;
+}
+/*font weigt*/
+.za-text-300{
+  font-weight: 300;
+}
+.za-text-500{
+  font-weight: 500;
+}
+.za-text-600{
+  font-weight: 600;
+}
+.za-text-700{
+  font-weight: 700;
+}
+.za-text-900{
+  font-weight: 900;
+}
+.za-text-bold{
+  font-weight: bold;
+}
